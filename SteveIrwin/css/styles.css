@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
+* {
+  font-family: Poppins, arial, sans-serif;
+}
+
+#main-header {
+  padding: 2%;
+  text-align: center;
+  line-height: 20px;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+  min-width: calc(100vh - 40vh);
+}
+
+.title-header {
+  font-size: 5rem;
+  margin-bottom: 0px;
+}
+
+.head-sub {
+  font-size: 2rem;
+  border-top: 1px solid grey;
+  padding-top: 1%;
+  width: 30%;
+  align-items: center;
+  display: inline-block;
+  min-width: calc(100vh - 40vh);
+}
+
+body {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main-content {
+  border: 10px solid grey;
+  align-items: center;
+  margin: 0 20% 0;
+  padding: 0.5%;
+  background-color: lightgrey;
+}
+
+.box-1-image {
+  /* background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAilTIx.img?h=1080&w=1920&m=6&q=60&o=f&l=f"); */
+  background-image: url("../img/steve.jpg");
+  padding: 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-2-content {
+  padding: 2% 0 1% 2%;
+}
+
+.box-2-content,
+h2 {
+  text-align: left;
+}
+
+.box-2-content,
+ul {
+  text-align: justify;
+  padding: 0 3%;
+  list-style: none;
+}
+
+.quote {
+    text-align: center;
+    font-size 0.95rem;
+}
+
+.quote, cite {
+    text-align: center;
+}
+
+.more-info {
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.wiki-link {
+    text-decoration: none;
+}
+
+.wiki-link:hover {
+    color:black;
+}
+
+/* #main-footer {
+  border-top: 1px solid black;
+  border
+  text-align: center;
+  margin-top: 1%;
+} */
+
+#main-footer {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 1% auto; /* This will center the border. */
+  width: 60%; /* Change this to whatever width you want. */
+  padding: 0.5% 0; /* This creates some space between the element and the border. */
+  border-top: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+  text-align: center;
+}
